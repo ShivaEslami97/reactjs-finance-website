@@ -1,21 +1,23 @@
-import './App.css';
-import Analytics from './components/Analytics';
-import Cards from './components/Cards/Cards';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Nav/Navbar';
-import Newsletter from './components/Newsletter';
+import "./App.css";
+import Analytics from "./components/Analytics";
+import Cards from "./components/Cards/Cards";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Nav/Navbar";
+import Newsletter from "./components/Newsletter";
 
 function App() {
   return (
-    <main>
+    <>
       <Navbar />
-      <Hero />
-      <Analytics />
-      <Newsletter />
-      <Cards />
-      <Footer />
-    </main>
+      <main>
+        <Hero />
+        <Analytics />
+        <Newsletter />
+        <Cards />
+        <Footer />
+      </main>
+    </>
   );
 }
 
