@@ -5,6 +5,20 @@
 body {
   background-color: #000300;
 }
+@layer utilities {
+  @variants responsive {
+    .hero-text-shadow {
+      text-shadow: -2px -2px rgb(0 223 154 / 42%);
+    }
+    .hero-text-shadow-md {
+      text-shadow: -3px -3px rgb(0 223 154 / 42%);
+    }
+    .hero-text-shadow-none {
+      text-shadow: none;
+    }
+  }
+}
+
 @layer components {
   .menu {
     @apply fixed top-0  w-[60%] z-[99] 
