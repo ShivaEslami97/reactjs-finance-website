@@ -2,6 +2,14 @@
 
 A simple responsive website using ReactJS and Tailwind css.
 
+## Demo
+
+You can see the demo [here](https://shivaese-reactjs-finance-website.netlify.app/) 👈👈
+
+## Screenshots
+<img src="https://user-images.githubusercontent.com/25490229/219791029-7e166f8e-9f24-4ba8-bcd4-2d6ec9d3be05.png" width=70% height=70%>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
